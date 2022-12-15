@@ -1,16 +1,28 @@
 {
   "name": "pokedex",
   "version": "0.0.0",
+  "type": "module",
   "description": "Poke to show my skills with pokemons",
-  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.0",
+    "@reduxjs/toolkit": "^1.9.1",
+    "axios": "^1.2.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-query": "^3.39.2",
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.2",
+    "reselect": "^4.1.7"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
